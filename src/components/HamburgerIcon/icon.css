@@ -1,0 +1,41 @@
+.ham_icon {
+  position: fixed;
+  top: 4rem;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
+}
+.ham_icon:hover {
+  cursor: pointer;
+}
+
+.st {
+  transition: all;
+  transform-origin: left;
+}
+
+#top {
+  transform: rotateZ(0);
+  transition: all 0.4s ease-in-out;
+}
+#topS {
+  transform: rotateZ(38deg) translateX(-4px);
+  transition: all 0.4s ease-in-out;
+}
+
+#mid {
+  transform: translateX(0);
+  transition: all 0.4s ease-in-out;
+}
+#midS {
+  transform: translateX(45px);
+  transition: all 0.4s ease-in-out;
+}
+
+#bottom {
+  transform: rotateZ(0);
+  transition: all 0.4s ease-in-out;
+}
+#bottomS {
+  transform: rotateZ(-38deg) translateX(-4px);
+  transition: all 0.4s ease-in-out;
+}
