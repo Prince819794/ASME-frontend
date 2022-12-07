@@ -1,42 +1,42 @@
-.header{
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 10vh;
-    z-index: 100;
-    padding: 2rem;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.header {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 8vh;
+  z-index: 100;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo{
-    width: 6rem;
-    height: 6rem;
-    object-fit: contain;
+.logo {
+  width: 6rem;
+  height: 6rem;
+  object-fit: contain;
 }
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 35%;
-    font-size: 1.1rem;
-    font-family: 'Poppins', sans-serif;
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  font-size: 1.1rem;
+  font-family: "Poppins", sans-serif;
 }
 
-.itm{
-    transition: all 0.2s ease-in-out;
+.itm {
+  transition: all 0.2s ease-in-out;
 }
-.itmS{
-    color: #50a1ff;
-}
-
-.itm:hover{
-    color: #50a1ff;
+.itmS {
+  color: #50a1ff;
 }
 
-.navbar{
-    width: 10rem;
+.itm:hover {
+  color: #50a1ff;
+}
+
+.navbar {
+  width: 10rem;
 }

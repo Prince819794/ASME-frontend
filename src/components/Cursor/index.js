@@ -9,7 +9,7 @@ const Cursor = () => {
       if (cursorRef.current == null) return;
       cursorRef.current.setAttribute(
         "style",
-        "top: " + (e.pageY) + "px; left: " + e.pageX + "px;"
+        "top: " + (e.clientY) + "px; left: " + e.clientX + "px;"
       );
     });
     document.addEventListener("click", () => {

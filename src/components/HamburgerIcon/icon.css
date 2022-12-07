@@ -1,6 +1,7 @@
 .ham_icon {
   position: fixed;
-  top: 4rem;
+  top: 3rem;
+  right: 3rem;
   overflow: hidden;
   transition: all 0.2s ease-in-out;
 }
@@ -15,27 +16,27 @@
 
 #top {
   transform: rotateZ(0);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 #topS {
   transform: rotateZ(38deg) translateX(-4px);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #mid {
   transform: translateX(0);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 #midS {
   transform: translateX(45px);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #bottom {
   transform: rotateZ(0);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 #bottomS {
   transform: rotateZ(-38deg) translateX(-4px);
-  transition: all 0.4s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
