@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Chat from '../components/Chat'
 import AboutUs from '../components/AboutUs'
 import Events from '../components/Events'
+import Timeline from '../components/Timeline'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Header />
       <Hero />
       <AboutUs />
+      <Timeline />
       <Events />
       <Chat />
     </>

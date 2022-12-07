@@ -1,0 +1,129 @@
+.timeline-main {
+  height: 110vh;
+  width: 100vw;
+  position: relative;
+}
+.timeline-main .timeline-bg {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 25;
+}
+.timeline-main .time-wrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 25;
+}
+.timeline-main .time-wrapper .bg-box {
+  height: 6rem;
+  width: 5rem;
+  clip-path: polygon(50% 0, 100% 0, 50% 100%, 0 100%);
+  background-color: #2ad9e7;
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+.timeline-main .time-wrapper .time-head {
+  font-family: "Axiforma", sans-serif;
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  top: 8%;
+  left: 8%;
+}
+.timeline-main .time-wrapper .time-main {
+  height: 50%;
+  width: 80%;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.timeline-main .time-wrapper .time-main img {
+  height: 40%;
+  width: 30%;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 4rem;
+}
+.efest-body {
+  font-family: "Axiforma", sans-serif;
+}
+.efest-body .efest-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #e96124;
+  margin: 1.8rem 0;
+}
+.efest-body .efest-tag {
+  color: #fdc60c;
+  margin: 1.8rem 0;
+  font-size: 1.2rem;
+}
+.efest-body .efest-body {
+  color: white;
+  line-height: 2.4;
+  width: 68%;
+  margin: 2.4rem 0;
+}
+.main-timeline {
+  position: relative;
+}
+.main-timeline .time-line {
+  width: 90%;
+  height: 1px;
+  margin: 1rem auto;
+  background-color: white;
+}
+.main-timeline .itm-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: absolute;
+  z-index: 35;
+  top: -6rem;
+  width: 95%;
+  margin: 0 4rem;
+  font-family: "Axiforma", sans-serif;
+}
+.itm-li .itm .ci {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: #180139;
+  position: relative;
+  top: -1.6rem;
+}
+.itm-li .itm .name {
+  margin: 2rem 0;
+  font-size: 1.2rem;
+}
+.itm-li .itm-active .name {
+  color: #e96124;
+  font-size: 1.8rem;
+}
+.itm-li .itm-active .ci {
+  border-color: #e96124;
+  border-width: 5px;
+  height: 2rem;
+  width: 2rem;
+  top: -1.4rem;
+}
+.itm-li .itm #n2,
+#n3,
+#n4 {
+  transform: translateX(-2rem);
+}
+.upcoming {
+  font-style: italic;
+  transform: translateX(-1.5rem);
+}
+.upcoming-inactive {
+  display: none;
+}
