@@ -1,16 +1,16 @@
-.events{
-    height: 100vh;
-    width: 100vw;
-    background-color: rgb(240, 235, 235);
+.events {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(240, 235, 235);
 }
-.events .ev-wrapper{
+.events .ev-wrapper {
   position: absolute;
   z-index: 25;
   width: 100%;
   height: 100%;
 }
-.events .ev-wrapper .ev-f-head{
-  font-family: 'Axiforma', sans-serif;
+.events .ev-wrapper .ev-f-head {
+  font-family: "Axiforma", sans-serif;
   font-size: 6rem;
   position: absolute;
   top: 2rem;
@@ -19,8 +19,8 @@
   color: #b8b8b82c;
   font-weight: 700;
 }
-.events .ev-wrapper .ev-head{
-  font-family: 'Axiforma', sans-serif;
+.events .ev-wrapper .ev-head {
+  font-family: "Axiforma", sans-serif;
   font-size: 3.6rem;
   font-weight: 700;
   width: 50%;
@@ -29,7 +29,7 @@
   color: #474747;
   position: relative;
 }
-.events .ev-wrapper .ev-head::after{
+.events .ev-wrapper .ev-head::after {
   content: "";
   display: block;
   width: 20rem;
@@ -40,4 +40,39 @@
   position: absolute;
   top: 1rem;
   left: 34rem;
+}
+.wrapper {
+  position: relative;
+  height: 100%;
+  width: 80vw;
+  display: flex;
+}
+.wrapper .card {
+  height: 50%;
+  width: 20vw;
+  position: relative;
+  margin: 30px;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  background: #0057e3;
+}
+.box2 {
+  width: 80%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  right:0%;
+  opacity: 1;
+}
+.overlay {
+  z-index: 9;
+  margin: auto;
+  background: #009938;
 }
