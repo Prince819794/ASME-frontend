@@ -1,0 +1,45 @@
+.ci-carousel {
+  display: flex;
+  width: 35vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.carousel-active-itm {
+  height: 20rem;
+  width: 20rem;
+  position: relative;
+}
+.carousel-active-itm img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-inactive-itm {
+  height: 10rem;
+  width: 10rem;
+}
+.carousel-active-itm::before{
+    content: '';
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+    width: 50%;
+    height: 20%;
+    background: #f87c45;
+    z-index: -1;
+}
+.carousel-active-itm::after{
+    content: '';
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    width: 50%;
+    height: 20%;
+    background: #f87c45;
+    z-index: -1;
+}
+.carousel-inactive-itm img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

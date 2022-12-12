@@ -6,7 +6,7 @@
   font-size: 3.4rem;
   font-family: "Axiforma", sans-serif;
   width: 50%;
-  margin: 3rem auto;
+  margin: 4rem auto;
   text-align: center;
   position: relative;
 }
@@ -45,6 +45,7 @@
   padding: 0.4rem 1rem;
   border-radius: 3px;
   transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
 }
 .comp-title-li .comp-title-active {
   background-color: #f87c45;
