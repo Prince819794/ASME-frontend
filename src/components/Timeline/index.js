@@ -29,7 +29,10 @@ const Timeline = () => {
         <div className="main-timeline">
           <div className="time-line"></div>
           <div className="itm-li">
-            <div className={`itm ${active === 0 ? "itm-active" : ""}`}>
+            <div
+              className={`itm ${active === 0 ? "itm-active" : ""}`}
+              onClick={() => setActive(0)}
+            >
               <div className="name">Orientation</div>
               <div className="ci"></div>
               <div
@@ -38,7 +41,10 @@ const Timeline = () => {
                 Upcoming...
               </div>
             </div>
-            <div className={`itm ${active === 1 ? "itm-active" : ""}`}>
+            <div
+              className={`itm ${active === 1 ? "itm-active" : ""}`}
+              onClick={() => setActive(1)}
+            >
               <div className="name" id="n2">
                 ASME e-fest
               </div>
@@ -49,7 +55,10 @@ const Timeline = () => {
                 Upcoming...
               </div>
             </div>
-            <div className={`itm ${active === 2 ? "itm-active" : ""}`}>
+            <div
+              className={`itm ${active === 2 ? "itm-active" : ""}`}
+              onClick={() => setActive(2)}
+            >
               <div className="name" id="n3">
                 ASME efx
               </div>
@@ -60,7 +69,10 @@ const Timeline = () => {
                 Upcoming...
               </div>
             </div>
-            <div className={`itm ${active === 3 ? "itm-active" : ""}`}>
+            <div
+              className={`itm ${active === 3 ? "itm-active" : ""}`}
+              onClick={() => setActive(3)}
+            >
               <div className="name" id="n4">
                 Ekavyom
               </div>

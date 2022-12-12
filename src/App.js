@@ -3,15 +3,18 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Cursor from "./components/Cursor";
+import EFest from "./pages/EFest";
+import Header from "./components/Header";
 
 const App = () => {
   return (
     <>
       <Cursor />
-      {/* <Navbar /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/e-fest" element={<EFest />} />
       </Routes>
       {/* <Footer /> */}
     </>

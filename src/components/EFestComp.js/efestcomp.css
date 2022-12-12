@@ -1,0 +1,51 @@
+.comp-main {
+  height: 150vh;
+  width: 100vw;
+}
+.comp-main .sec-title {
+  font-size: 3.4rem;
+  font-family: "Axiforma", sans-serif;
+  width: 50%;
+  margin: 3rem auto;
+  text-align: center;
+  position: relative;
+}
+.comp-main .sec-title::before {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 6rem;
+  background-color: #50a1ff;
+  clip-path: polygon(40% 0, 100% 0, 60% 100%, 0 100%);
+  position: absolute;
+  z-index: -1;
+  top: -1rem;
+  left: 6.5rem;
+}
+.comp-main .sec-title::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 2px;
+  background-color: #f87c45;
+  position: absolute;
+  z-index: -1;
+  top: 5rem;
+  left: 22rem;
+}
+.comp-title-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin: 2rem auto;
+  font-weight: 600;
+}
+.comp-title-li .comp-title {
+  padding: 0.4rem 1rem;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
+}
+.comp-title-li .comp-title-active {
+  background-color: #f87c45;
+}
