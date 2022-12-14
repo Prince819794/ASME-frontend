@@ -5,8 +5,6 @@ import CrescendoBody from "../components/CrescendoBody";
 const Crescendo = () => {
   return (
     <>
-      {/* <Header /> */}
-
       {/* tera component idhar bana.. comment ke place me  */}
 
       <CrescendoBody />
