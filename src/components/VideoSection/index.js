@@ -5,23 +5,23 @@ import "./videosection.css";
 const index = () => {
   const slides = [
     {
-      url: "https://images.unsplash.com/photo-1664575196851-5318f32c3f43?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      url: "https://www.youtube.com/embed/tgbNymZ7vqY",
       title: "beach",
     },
     {
-      url: "https://images.unsplash.com/photo-1670708779502-b524a3ef43f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      url: "https://www.youtube.com/embed/MLpWrANjFbI",
       title: "boat",
     },
     {
-      url: "https://images.unsplash.com/photo-1670679899048-dc29d0a855ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      url: "https://www.youtube.com/embed/u31qwQUeGuM",
       title: "forest",
     },
     {
-      url: "https://images.unsplash.com/photo-1670708472911-d2afe0110ee0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      url: "https://www.youtube.com/embed/MLpWrANjFbI",
       title: "city",
     },
     {
-      url: "https://plus.unsplash.com/premium_photo-1667737996558-9c28a148e47e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60",
+      url: "https://www.youtube.com/embed/u31qwQUeGuM",
       title: "italy",
     },
   ];

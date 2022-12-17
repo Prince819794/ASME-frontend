@@ -43,3 +43,15 @@
   width: 100%;
   object-fit: contain;
 }
+
+@media screen and (max-width: 768px) {
+  .carousel-active-itm {
+    height: 12rem;
+    width: 12rem;
+  }
+  .carousel-inactive-itm {
+    height: 6rem;
+    width: 10rem;
+  }
+  
+}
