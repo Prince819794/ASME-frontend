@@ -5,6 +5,7 @@ import Chat from '../components/Chat'
 import AboutUs from '../components/AboutUs'
 import Events from '../components/Events'
 import Timeline from '../components/Timeline'
+import ContactUs from '../components/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Timeline />
       <Events />
       <Chat />
+      <ContactUs />
     </>
   )
 }
