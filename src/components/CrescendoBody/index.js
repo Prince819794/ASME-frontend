@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./crestyle.css";
 import CrescendoCard from "../CrescendoCard";
 import { cardsday1, cardsday2, cardsday3 } from "../../utils/crscards";
+import comma from "../../assets/comma.svg";
 
 const Index = () => {
   const days = ["day1", "day2", "day3"];
@@ -9,6 +10,7 @@ const Index = () => {
   const reverse = false;
   return (
     <div className="crs-main-wrapper">
+      <img className="comma" src={comma} alt="" />
       <div className="crs-event-header">
         <div className="ev-f-head">Events</div>
         <div className="ev-head">Events</div>
@@ -30,63 +32,20 @@ const Index = () => {
         {active == days[0] &&
           cardsday1.map((item, key) => {
             if (key & 1)
-              return (
-                <CrescendoCard
-                  key={key}
-                  reverse={!reverse}
-                  title={item.title}
-                  content={item.content}
-                />
-              );
-            return (
-              <CrescendoCard
-                key={key}
-                reverse={reverse}
-                title={item.title}
-                content={item.content}
-              />
-            );
+              return <CrescendoCard key={key} reverse={!reverse} {...item} />;
+            return <CrescendoCard key={key} reverse={reverse} {...item} />;
           })}
         {active == days[1] &&
           cardsday2.map((item, key) => {
             if (key & 1)
-              return (
-                <CrescendoCard
-                  key={key}
-                  reverse={!reverse}
-                  title={item.title}
-                  content={item.content}
-                />
-              );
-            return (
-              <CrescendoCard
-                key={key}
-                reverse={reverse}
-                title={item.title}
-                content={item.content}
-              />
-            );
+              return <CrescendoCard key={key} reverse={!reverse} {...item} />;
+            return <CrescendoCard key={key} reverse={reverse} {...item} />;
           })}
         {active == days[2] &&
           cardsday3.map((item, key) => {
             if (key & 1)
-              return (
-                <CrescendoCard
-                  key={key}
-                  reverse={!reverse}
-                  title={item.title}
-                  content={item.content}
-                />
-              );
-            return (
-              <CrescendoCard
-                key={key}
-                reverse={reverse}
-                title={item.title}
-                content={item.content}
-                img={item.img}
-              />
-            );
+              return <CrescendoCard key={key} reverse={!reverse} {...item} />;
+            return <CrescendoCard key={key} reverse={reverse} {...item} />;
           })}
       </div>
     </div>

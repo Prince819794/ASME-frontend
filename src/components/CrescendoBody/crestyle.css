@@ -5,6 +5,12 @@
   position: relative;
   height: inherit;
 }
+.crs-main-wrapper .comma {
+  position: relative;
+  top: -3rem;
+  left: 15rem;
+  height: 6rem;
+}
 .crs-main-wrapper .ev-f-head {
   font-family: "Axiforma", sans-serif;
   opacity: 0.2;
