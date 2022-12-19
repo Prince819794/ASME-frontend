@@ -127,3 +127,12 @@
 .upcoming-inactive {
   display: none;
 }
+
+@media screen and (max-width: 768px) {
+  .timeline-main .time-wrapper .time-main img {
+    height: 40%;
+    width: 40%;
+    margin: 0 2rem;
+    object-fit: contain;
+  }
+}

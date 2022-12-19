@@ -1,18 +1,18 @@
 import { useState } from "react";
 
-const slideStyles = {
-  width: "100%",
-  height: "100%",
-  borderRadius: "10px",
-  backgroundSize: "cover",
-  backgroundPosition: "center",
-};
+// const slideStyles = {
+//   width: "100%",
+//   height: "100%",
+//   borderRadius: "10px",
+//   backgroundSize: "cover",
+//   backgroundPosition: "center",
+// };
 
 const rightArrowStyles = {
   position: "absolute",
   top: "50%",
   transform: "translate(0, -50%)",
-  right: "32px",
+  right: "-50px",
   fontSize: "45px",
   color: "#fff",
   zIndex: 1,
@@ -23,7 +23,7 @@ const leftArrowStyles = {
   position: "absolute",
   top: "50%",
   transform: "translate(0, -50%)",
-  left: "32px",
+  left: "-50px",
   fontSize: "45px",
   color: "#fff",
   zIndex: 1,
@@ -62,10 +62,6 @@ const ImageSlider = ({ slides }) => {
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
   };
-  const slideStylesWidthBackground = {
-    ...slideStyles,
-    backgroundImage: `url(${slides[currentIndex].url})`,
-  };
 
   return (
     <div style={sliderStyles}>
@@ -77,7 +73,14 @@ const ImageSlider = ({ slides }) => {
           ❱
         </div>
       </div>
-      <div style={slideStylesWidthBackground}></div>
+      <div>
+        <iframe
+          width="480"
+          height="335"
+          src={slides[currentIndex].url}
+          title={slides[currentIndex].title}
+        ></iframe>
+      </div>
       <div style={dotsContainerStyles}>
         {slides.map((slide, slideIndex) => (
           <div

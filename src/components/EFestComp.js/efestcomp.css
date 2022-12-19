@@ -50,3 +50,15 @@
 .comp-title-li .comp-title-active {
   background-color: #f87c45;
 }
+@media screen and (max-width: 768px) {
+  .comp-main {
+    height: 100vh;
+  }
+  .comp-title-li {
+    width: 90%;
+    margin: auto;
+  }
+  .comp-main .sec-title::before {
+    left: 2rem;
+  }
+}

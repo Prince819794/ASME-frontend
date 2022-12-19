@@ -41,3 +41,19 @@
 .navbar {
   width: 10rem;
 }
+@media screen and (max-width: 720px) {
+  .header {
+    padding: 2rem 0;
+  }
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  .menu {
+    width: 65%;
+    margin: 0 0.5rem;
+  }
+  .navbar {
+    width: 6rem;
+  }
+}
