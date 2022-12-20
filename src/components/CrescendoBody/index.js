@@ -7,7 +7,7 @@ import comma from "../../assets/comma.svg";
 const Index = () => {
   const days = ["day1", "day2", "day3"];
   const [active, setActive] = useState(days[0]);
-  const reverse = false;
+  const reverse = 1;
   return (
     <div className="crs-main-wrapper">
       <img className="comma" src={comma} alt="" />
@@ -31,21 +31,33 @@ const Index = () => {
       <div className="crs-main-content">
         {active == days[0] &&
           cardsday1.map((item, key) => {
-            if (key & 1)
-              return <CrescendoCard key={key} reverse={!reverse} {...item} />;
-            return <CrescendoCard key={key} reverse={reverse} {...item} />;
+            return (
+              <CrescendoCard
+                key={key}
+                reverse={reverse ^ (key & 1)}
+                {...item}
+              />
+            );
           })}
         {active == days[1] &&
           cardsday2.map((item, key) => {
-            if (key & 1)
-              return <CrescendoCard key={key} reverse={!reverse} {...item} />;
-            return <CrescendoCard key={key} reverse={reverse} {...item} />;
+            return (
+              <CrescendoCard
+                key={key}
+                reverse={reverse ^ (key & 1)}
+                {...item}
+              />
+            );
           })}
         {active == days[2] &&
           cardsday3.map((item, key) => {
-            if (key & 1)
-              return <CrescendoCard key={key} reverse={!reverse} {...item} />;
-            return <CrescendoCard key={key} reverse={reverse} {...item} />;
+            return (
+              <CrescendoCard
+                key={key}
+                reverse={reverse ^ (key & 1)}
+                {...item}
+              />
+            );
           })}
       </div>
     </div>

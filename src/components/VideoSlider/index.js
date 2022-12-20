@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./style.css";
 // const slideStyles = {
 //   width: "100%",
 //   height: "100%",
@@ -46,6 +46,17 @@ const dotStyle = {
   fontSize: "20px",
   color: "#fff",
 };
+// if (this.state.viewport.width > 900) {
+//   const ifStyle = {
+//     width: "480px",
+//     height: "335px",
+//   };
+// } else {
+//   const ifStyle = {
+//     width: "380px",
+//     height: "235px",
+//   };
+// }
 
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -65,18 +76,16 @@ const ImageSlider = ({ slides }) => {
 
   return (
     <div style={sliderStyles}>
-      <div>
+      {/* <div>
         <div onClick={goToPrevious} style={leftArrowStyles}>
           ❰
         </div>
         <div onClick={goToNext} style={rightArrowStyles}>
           ❱
         </div>
-      </div>
+      </div> */}
       <div>
         <iframe
-          width="480"
-          height="335"
           src={slides[currentIndex].url}
           title={slides[currentIndex].title}
         ></iframe>

@@ -72,3 +72,12 @@
   /* background-color: green; */
   padding: 1rem;
 }
+@media screen and (max-width: 1240px) {
+  .crs-main-wrapper .ev-head::after {
+    width: 10rem;
+    right: 0;
+  }
+  .crs-main-wrapper .comma {
+    left: 8rem;
+  }
+}

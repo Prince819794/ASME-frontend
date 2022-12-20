@@ -134,9 +134,28 @@
   justify-content: center;
   align-items: center;
 }
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1240px) {
+  .vd-main .vd-wrapper .vd-head {
+    height: 18vh;
+    width: 53%;
+  }
+  .video-description .vd-description {
+    -webkit-line-clamp: 7;
+    line-clamp: 4;
+  }
+}
+/* @media screen and (max-width: 768px) {
   .vd-main .vd-wrapper .vd-head {
     width: 90%;
+  }
+} */
+@media screen and (max-width: 768px) {
+  .vd-main .vd-wrapper .vd-head {
+    height: 13vh;
+    width: 66%;
+  }
+  .video-description {
+    height: 18vh;
+    width: 80%;
   }
 }

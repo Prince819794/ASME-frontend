@@ -60,3 +60,27 @@
   border-radius: 13px;
   font-size: 0.9rem;
 }
+
+@media screen and (max-width: 1240px) {
+  .crs-card-wrapper {
+    margin: 4rem 0;
+  }
+  .crs-main-wrapper .ev-head::after {
+    width: 10rem;
+    right: 0;
+  }
+  .crs-card-content .text p {
+    line-height: 1.5;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .crs-card-wrapper {
+    margin: 6rem 0;
+  }
+  .crs-main-wrapper .ev-head::after {
+    width: 10rem;
+    right: -2rem;
+  }
+}
