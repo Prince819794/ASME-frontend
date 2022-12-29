@@ -1,7 +1,8 @@
 @import url('https://fonts.cdnfonts.com/css/axiforma');
-.footer-section{
+
+.footer-section {
     position: relative;
-    background-image: url(../../assets/contactBg.png); 
+    background-image: url(../../assets/contactBg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,42 +14,43 @@
     display: flex;
 }
 
-.container1-img{
+.container1-img {
     min-width: 30% !important;
     overflow: hidden;
-  
+
 
 }
 
-.container1-img img{
-   width: 100%;
+.container1-img img {
+    width: 100%;
     object-fit: contain;
 }
 
-.foot-title{
+.foot-title {
     margin-bottom: 3vh;
 }
-.foot-main-content{
+
+.foot-main-content {
     background-color: white;
     min-width: 65%;
     padding-top: 10vh;
     padding-left: 10vh;
-   
+
 }
 
-.foot-main-content span{
+.foot-main-content span {
     color: #00203d;
     font-family: 'Axiforma', sans-serif;
-    font-size: 2.7rem;                                            
+    font-size: 2.7rem;
 }
 
-.s-media{
+.s-media {
     display: flex;
-  margin-bottom: 7vh;
-    
+    margin-bottom: 7vh;
+
 }
 
-.fb-icon{
+.fb-icon {
     height: 2.5rem;
     width: 2.5rem;
     border-radius: 50%;
@@ -59,24 +61,25 @@
     align-items: center;
 }
 
-.fafa{
+.fafa {
     color: white;
 }
-.i1{
+
+.i1 {
     margin-left: 0 !important;
 }
 
-.foot-addr{
+.foot-addr {
     font-size: 1.2rem !important;
     margin-left: .5rem;
 }
 
-.foot-add-indi{
+.foot-add-indi {
     margin-bottom: 1.7rem;
     justify-content: baseline;
 }
 
-.btn-contact{
+.btn-contact {
     padding: 1rem 8rem;
     cursor: pointer;
     background-color: #00203d;
@@ -84,18 +87,18 @@
     margin-top: 5vh;
 }
 
-.btn-contact strong{
+.btn-contact strong {
     font-size: 1rem;
 }
 
 
-.scroll-to-top{
-    
+.scroll-to-top {
+
     position: absolute;
     right: 6%;
     height: 3.2rem;
-     bottom: 20%;
- 
+    bottom: 20%;
+
     width: 3.2rem;
     display: flex;
     justify-content: center;
@@ -104,16 +107,90 @@
     background-color: black;
 }
 
-.scroll-btn{
+.scroll-btn {
     color: white;
+    height: 2vh;
 }
 
-.btm-recog{
-    z-index: 10;
-    background: transparent;
-    
+
+
+@media only screen and (max-width:1200px) and (min-width:661px) {
+
+    .footer-section {
+        max-height: 45vh;
+        padding-left: 5 vh;
+    }
+
+    .container1-img {
+        width: 60%;
+
+    }
+
+    .container1-img img {
+        width: 100%;
+    }
+
+    .footer-main-content {
+        padding: left 5px;
+    }
+
+
 }
 
-.btm-recog span{
-    color: red !important;
+@media only screen and (max-width:660px) {
+    .footer-section {
+        padding-left: 6vh;
+
+    }
+
+    .container1-img img {
+        width: 320px;
+    }
+
+    .foot-main-content {
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }
+
+    .fb-icon {
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .fafa {
+        height: 1.5rem;
+
+    }
+
+    .s-media {
+        display: flex;
+        margin-bottom: 5vh;
+    }
+
+
+    .btn-contact {
+        padding-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 5.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .scroll-to-top {
+
+        position: absolute;
+        right: 12%;
+        height: 3.2rem;
+        bottom: 17%;
+
+        width: 3.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: black;
+    }
+
+    .scroll-btn {
+        height: 1.5vh;
+    }
 }
