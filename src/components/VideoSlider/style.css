@@ -1,0 +1,17 @@
+iframe {
+  width: 480px;
+  height: 335px;
+}
+@media screen and (max-width: 900px) {
+  .video-play-secton {
+    height: 28vh;
+  }
+  iframe {
+    width: 380px;
+    height: 235px;
+  }
+  .video-description {
+    height: 20vh;
+    width: 80%;
+  }
+}

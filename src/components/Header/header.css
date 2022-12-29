@@ -1,14 +1,15 @@
 .header {
-  position: absolute;
+  position: sticky;
   top: 0;
   width: 100vw;
   height: 8vh;
   z-index: 100;
-  padding: 2rem;
+  padding: 4rem;
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.897);
 }
 
 .logo {
@@ -39,4 +40,20 @@
 
 .navbar {
   width: 10rem;
+}
+@media screen and (max-width: 720px) {
+  .header {
+    padding: 2rem 0;
+  }
+  .logo {
+    width: 4rem;
+    height: 4rem;
+  }
+  .menu {
+    width: 65%;
+    margin: 0 0.5rem;
+  }
+  .navbar {
+    width: 6rem;
+  }
 }

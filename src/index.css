@@ -6,6 +6,8 @@ body {
   margin: 0;
   overflow-x: hidden  !important; 
   cursor: none;
+  box-sizing: border-box;
+  background-color: white;
 }
 
 code {
