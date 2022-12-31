@@ -17,6 +17,8 @@
 .container1-img {
     min-width: 30% !important;
     overflow: hidden;
+
+
 }
 
 .container1-img img {
@@ -117,12 +119,11 @@
     .footer-section {
         max-height: 130vh;
     }
-
+    
     .container1-img {
-        width: 100%;
+        width: 60%;
 
     }
-
 
     .container1-img img {
         width: 100%;
@@ -149,6 +150,7 @@
         align-items: center;
         border-radius: 50%;
         background-color: black;
+        padding: left 5px;
     }
 
 
@@ -173,6 +175,17 @@
         padding-left: 2rem;
         padding-right: 1rem;
         padding-bottom: 0rem;
+        padding-left: 6vh;
+
+    }
+
+    .container1-img img {
+        width: 320px;
+    }
+
+    .foot-main-content {
+        padding-left: 3rem;
+        padding-right: 1rem;
     }
 
     .fb-icon {
@@ -190,13 +203,12 @@
         margin-bottom: 5vh;
     }
 
+
     .btn-contact {
-        padding: 1rem 5rem 1rem 3rem;
-
-    }
-
-    .btn-contact strong {
-        padding-left: 2rem;
+        padding-top: 2rem;
+        padding-left: 5rem;
+        padding-right: 5.5rem;
+        padding-bottom: 2rem;
     }
 
     .scroll-to-top {
@@ -205,6 +217,7 @@
         right: 12%;
         height: 3.2rem;
         bottom: 17%;
+
         width: 3.2rem;
         display: flex;
         justify-content: center;
